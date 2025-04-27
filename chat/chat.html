@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="styl.css" />
+</head>
+
+<body>
+    <header>
+        <h2>Chat</h2>
+    </header>
+    <div id="sidebar">
+        <ul>
+            <li>ogolny</li>
+            <li>
+                tematyczny
+                <ol>
+                    <li>turytryczny</li>
+                    <li>zeglarski</li>
+                    <li>sdkgfsdifdgi</li>
+                    <li>hodowla zwierzatek domowych</li>
+                </ol>
+            </li>
+        </ul>
+        <h3>uczestnicy</h3>
+        <p>Jolanta Nowka</p>
+        <img src="Jolka.jpg" alt="jolanta nowak" />
+        <p>krzysztow lukasiniski</p>
+        <img src="Krzysiek.jpg" alt="krzysztow lukasiniski" />
+    </div>
+    <main>
+        <div id="chat">
+            <div class="jolka">
+                <img src="Jolka.jpg" alt="Jolanta Nowak" />
+                <p>Cześć idziesz jutro do kina?</p>
+            </div>
+
+            <div class="krzysiek">
+                <img src="Krzysiek.jpg" alt="Krzysztof Łukasiński" />
+                <p>Tak! A Ty?</p>
+            </div>
+        </div>
+	        <label for="wiadomosc">Wpisz wiadomość: </label>
+	        <input type="text" name="wiadomosc" id="wiadomosc">
+	        <button onclick="wyslij()">Wyślij</button><br>
+	        <button onclick="generuj()">Generuj losową odpowiedź</button>
+            <script src="skrypt.js"></script>
+    </main>
+    <footer>skibaaaaa</footer>
+</body>
+</html>
